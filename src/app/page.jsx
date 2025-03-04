@@ -57,7 +57,7 @@ export default function Home() {
     <div className="items-center justify-items-center  h-screen font-[family-name:var(--font-geist-sans)]">
       <div className="absolute z-10 bg-black w-full p-4 flex justify-between items-center gap-4 mb-4">
         <div >
-        <h1 className="text-lg md:text-6xl mb-2">Weather App</h1>
+        <h1 className="text-lg md:text-6xl mb-2 text-white">Weather App</h1>
         <form onSubmit={handleLocationSubmit} className="flex md:gap-2">
           <TextField
             variant="outlined"
