@@ -2,6 +2,7 @@
 
 An interactive Next.js application that displays weather data in a 3D model of a building, using React Three Fiber and a Weather API. The scene dynamically switches between day and night based on real-time weather conditions. Styled with Tailwind CSS for a sleek UI.
 
+Deployed Link: https://3dweatherapp-liart.vercel.app/
 ## Features
 
 -- 3D Interactive Building 🏢 with real-time weather updates
