@@ -31,7 +31,7 @@ export default function Home() {
 
   useEffect(() => {
     const apiKey = '521994c6afaf43499db50121250403';
-    const apiUrl = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${location}&aqi=no`;
+    const apiUrl = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${location}&aqi=no`;
 
     axios
       .get(apiUrl)
